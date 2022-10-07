@@ -51,4 +51,6 @@ jobs:
           VALIDATE_HTML: true
           VALIDATE_CSS: true
           DEFAULT_BRANCH: main
+          LINTER_RULES_PATH: /
+          CSS_FILE_NAME: .stylelintrc.json
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
